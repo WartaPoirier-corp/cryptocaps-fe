@@ -1,0 +1,11 @@
+[
+  { "name": "Tibo B.", "email": "tibo@tibo.bzh", "value": 44000 },
+  { "name": "Edgar O.", "email": "edgar@edgar.bzh", "value": 35000 },
+  { "name": "Ana G.", "email": "ana@gelez.xyz", "value": 19320 },
+  { "name": "Hugo C.", "email": "hugo.crespo@univ-lyon1.fr", "value": 69 },
+  { "name": "Mathis G.", "email": "pdg@wp-corp.eu.org", "value": 42 },
+  { "name": "Pénélope D.", "email": "douetp@etu.univ-grenoble-alpes.fr", "value": 38 },
+  { "name": "Johan P.", "email": "johan.pedroli@etu.univ-grenoble-alpes.fr", "value": 12 },
+  { "name": "Éloïse P.", "email": "hello@elo.hello", "value": 1 },
+  { "name": "Mattéo D.", "email": "Matteo.Decorsaire@etu.univ-grenoble-alpes.fr", "value": 0 }
+]

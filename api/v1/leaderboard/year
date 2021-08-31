@@ -1,0 +1,7 @@
+[
+  { "name": "3A", "icon": "/icons/3.png", "value": 44000 },
+  { "name": "5A", "icon": "/icons/5.png", "value": 35000 },
+  { "name": "4A", "icon": "/icons/4.png", "value": 19320 },
+  { "name": "Peip1", "icon": "/icons/1.png", "value": 69 },
+  { "name": "Peip2", "icon": "/icons/2.png", "value": 42 }
+]

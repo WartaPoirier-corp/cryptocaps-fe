@@ -1,0 +1,7 @@
+[
+  { "name": "INFO", "icon": "/icons/info.png", "value": 44000 },
+  { "name": "IESE", "icon": "/icons/iese.png", "value": 35000 },
+  { "name": "PRI", "icon": "/icons/civil.png", "value": 19320 },
+  { "name": "MAT", "icon": "/icons/mat.png", "value": 69 },
+  { "name": "MAM", "icon": "/icons/mam.png", "value": 42 }
+]

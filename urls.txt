@@ -1,0 +1,12 @@
+/fileadmin/GridElements/Domaines/Domaine_eau_environnement_amenagement.png
+/fileadmin/GridElements/Domaines/Domaine_electronique_et_systemes_numeriques.png
+/fileadmin/GridElements/Domaines/Domaine_energetique_genie_des_procedes.png
+/fileadmin/GridElements/Domaines/Domaine_genie_biologique_et_alimentaire.png
+/fileadmin/GridElements/Domaines/Domaine_genie_biomedical_instrumentation.png
+/fileadmin/GridElements/Domaines/Domaine_genie_civil.png
+/fileadmin/GridElements/Domaines/Domaine_genie_industriel.png
+/fileadmin/GridElements/Domaines/Domaine_informatique.png
+/fileadmin/GridElements/Domaines/Domaine_materiaux.png
+/fileadmin/GridElements/Domaines/Domaine_mathematiques_appliquees_et_modelisation.png
+/fileadmin/GridElements/Domaines/Domaine_mecanique.png
+/fileadmin/GridElements/Domaines/Domaine_systemes_electriques.png

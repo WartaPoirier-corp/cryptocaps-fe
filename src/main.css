@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@800&display=swap');
+
+/*
+  elm-hot creates an additional div wrapper around the app to make HMR possible.
+  This could break styling in development mode if you are using Elm UI.
+
+  More context in the issue:
+    https://github.com/halfzebra/create-elm-app/issues/320
+*/
+[data-elm-hot="true"] {
+  height: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body > nav > h1 {
+  padding: 2rem;
+  background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+  background-clip: text;
+  color: transparent;
+}
+
+body > nav > ul {
+  list-style: none;
+}
+
+body > nav > ul :is(a, a:visited) {
+    padding: 1rem 2rem;
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition: background 0.2s ease-in;
+    border-radius: 0 2rem 2rem 0;
+}
+
+body > nav > ul :is(a, a:visited):hover {
+    background: #eeeeee;
+}
+
+body > main {
+  padding: 2rem;
+  flex: 1;
+  margin: 0 8rem;
+}
+
+body > main > h1 {
+    margin-bottom: 0.5em;
+}
+
+.table {
+    border: 2px solid #eeeeee;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    overflow: hidden;
+    margin: 4rem 0;
+}
+
+.table img {
+    border-radius: 100%;
+    width: 3em;
+}
+.table .row > * {
+    padding: 1em;
+}
+
+.table .row > *:nth-child(2) {
+    flex: 5;
+}
+
+.table .row {
+    display: flex;
+    align-items: center;
+    transition: background 0.2s ease-in;
+}
+
+.table .row:not(:first-child) {
+    border-top: 2px solid #eeeeee;
+}
+
+.table .row:hover {
+    background: #eeeeee;
+}
+
+.error {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.error {
+    height: 100%;
+}
+
+.spinner {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spinner p {
+    font-family: 'Montserrat', sans-serif;
+    background-clip: text;
+    color: transparent;
+    animation: bounce 1s linear 0s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    from {
+        background-color: #36D1DC;
+    }
+    to {
+        background-color: #5B86E5;
+    }
+}
+
+.table a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #5B86E5;
+    font-weight: bold;
+}
+
+.up, .down, .stable {
+    border-radius: 2em;
+    /*background: #eeeeee;*/
+    font-weight: bold;
+    display: inline;
+    padding: 1em;
+    margin: 0 1em;
+    font-size: 1rem;
+}
+
+.up {
+    color: #11bb88;
+}
+
+.down {
+    color: #ee3311;
+}
+
+main h1 {
+    display: flex;
+    align-items: center;
+}
+
+.chart > div {
+    width: initial !important;
+    height: initial !important;
+}
+
+.chart__axis--horizontal .chart__tick__label {
+    display: none;
+}
+
+h2 {
+    margin: 1em 0;
+}
+
+main > p {
+    margin: 0.7em 0;
+}
+
+.field {
+    margin: 2em 0;
+}
+
+.field label {
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.field input {
+    display: block;
+    border: 2px solid #eeeeee;
+    padding: 1em;
+    border-radius: 3em;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    appearance: none;
+    padding: 1em;
+    width: 50%;
+    display: block;
+    border: none;
+    border-radius: 3em;
+    color: white;
+    background: linear-gradient(to right, #36D1DC, #5B86E5);
+    cursor: pointer;
+    transition: transform 0.1s ease-in;
+    font-weight: bold;
+}
+
+input[type=submit]:focus {
+    transform: scale(0.98);
+}

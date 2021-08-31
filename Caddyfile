@@ -1,0 +1,6 @@
+http://localhost:7878
+
+root .
+file_server
+header * Content-Type application/json
+header * Access-Control-Allow-Origin *

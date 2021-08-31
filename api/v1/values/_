@@ -1,0 +1,7 @@
+[
+    { "id": "aaaa-bbbb-cccc-dddd", "name": "Leffe", "value": 1, "delta": 0.0 },
+    { "id": "aaaa-bbbb-cccc-dddd", "name": "Grimbergen", "value": 53.7, "delta": 1.37 },
+    { "id": "aaaa-bbbb-cccc-dddd", "name": "Ninkasi", "value": 102, "delta": 5.1 },
+    { "id": "aaaa-bbbb-cccc-dddd", "name": "BIÈRE Top Budget", "value": 0.02, "delta": -5.74 },
+    { "id": "aaaa-bbbb-cccc-dddd", "name": "Sheffe", "value": 753.45, "delta": -0.02 }
+]
